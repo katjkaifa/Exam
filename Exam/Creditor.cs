@@ -13,7 +13,7 @@ namespace Exam
 
         public override void PrintInformation()
         {
-            Console.WriteLine($"Creditor name: {this.Name}; Start date credit: {this.StartDate}; Credit value: {this.Value}; Credit interest: {this.CreditInterest}; Credit remainder: {this.CreditRemainder}");
+            Console.WriteLine("Creditor name: {0}; Start date credit: {1}; Credit value: {2}; Credit interest: {3}; Credit remainder: {4}", this.Name, this.StartDate, this.Value, this.CreditInterest, this.CreditRemainder);
         }
     }
 }

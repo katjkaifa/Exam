@@ -12,7 +12,7 @@ namespace Exam
 
         public override void PrintInformation()
         {
-            Console.WriteLine($"Organisation name: {this.Name}; Start date account: {this.StartDate}; Account No: {this.AccountNo}; Account sum: {this.Value}");
+            Console.WriteLine("Organisation name: {0}; Start date account: {1}; Account No: {2}; Account sum: {3}", this.Name, this.StartDate, this.AccountNo, this.Value);
         }
     }
 }
